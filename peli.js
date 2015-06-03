@@ -16,7 +16,7 @@ canvas.height = screenWidth * 0.25;
 
 var context = canvas.getContext('2d');
 
-addEventListener('click', clickFunction);
+canvas.addEventListener('click', clickFunction);
 
 var singlePress = true;
 function controllerdown(e){
